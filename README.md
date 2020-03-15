@@ -2,8 +2,13 @@
 
 A **COVID-19** terjedése miatt Március 16-tól bezárnak a közoktatási intézmények és távoktatásra állnak át. Mivel nem tudom, hogy mennyire vannak felkészítve az iskolák erre, ezért biztos ami biztos alapon összeraktam egy gyors Moodle telepítőt. A rendszer indítását és egyéb informatikai aspektusait itt részletezem. A honlap beállítását, kezelését, kurzusok adminisztrációját a _resources_ mappában találtható _install_v1.pdf_ tartalmazza.
 
+## Figyelem
+A rendszer használatáért, abból következő esetleges károkért nem vállalok felelősséget! Nincs köze semmilyen állami megoldáshoz, hivatalos ajánláshoz. <br>
+Informatikai szakértelmet igényel a biztonságos használata!<br>
+Alkalmazása csak és kizárólag saját felelősségre!
+
 ## Közreműködés
-Szívesen veszek minden közreműködést, akár a kód csiszolásában akár a telepítő minőségibbé tételében.
+Szívesen veszek minden közreműködést, akár a kód csiszolásában akár a telepítő leírás minőségibbé tételében.
 
 ## Célok
 - Megkönnyíteni az iskolai rendszergazdák munkáját
@@ -90,5 +95,3 @@ Segítség: [Docker volumes](https://docs.docker.com/storage/volumes/)
   1. Duplikáljuk az egész mappát.
   2. Az project-config.sh-ban változtassuk meg a _COMPOSE_PROJECT_NAME_ környezeti változó értékét.
   3. Adjuk ki az indító utasítást.
-
-A rendszer használatáért, abból következő esetleges károkért nem vállalok felelősséget! Használjátok odafigyeléssel! :)
